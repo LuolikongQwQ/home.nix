@@ -12,8 +12,7 @@
     brave
     vlc
     
-    telegram-desktop
-    discord
+    telegram-desktop 
 
     yesplaymusic
     prismlauncher
