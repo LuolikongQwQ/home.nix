@@ -12,7 +12,7 @@
         nativeMessagingHosts = [
           pkgs.ff2mpv
           pkgs.gnome-browser-connector
-	];
+        ];
         # languagePacks = [ "en-US" "zh-CN" ];
       };
     };

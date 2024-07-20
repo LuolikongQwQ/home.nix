@@ -10,10 +10,10 @@
   home.packages = with pkgs; [
     wl-clipboard
     vlc
-    telegram-desktop
+    #telegram-desktop
     yesplaymusic
     
-    qbittorrent
+    #qbittorrent
   ];
 
   services.kdeconnect.enable = false;
