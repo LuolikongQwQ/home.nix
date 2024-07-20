@@ -7,5 +7,5 @@
     settings = { };  
   };
 
-  home.packages = with pkgs; [ kdePackages.kleopatra ];
+  # home.packages = with pkgs; [ kdePackages.kleopatra ];
 }
