@@ -7,4 +7,5 @@
   ];
   gtk.enable = true;
   qt.enable = true;
+  services.gnome.gnome-browser-connector.enable = true;
 }

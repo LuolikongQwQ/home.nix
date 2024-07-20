@@ -11,7 +11,8 @@
       package = pkgs.firefox.override {
         nativeMessagingHosts = [
           pkgs.ff2mpv
-        ];
+          
+	];
         # languagePacks = [ "en-US" "zh-CN" ];
       };
     };
