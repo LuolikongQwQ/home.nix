@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   programs.foot = {
-    enable = true;
+    enable = false;
     server.enable = false;
     settings = {
       # See <https://codeberg.org/dnkl/foot/src/branch/master/foot.ini>
