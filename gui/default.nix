@@ -8,19 +8,15 @@
   ];
   
   home.packages = with pkgs; [
-    wl-clipboard 
-    brave
+    wl-clipboard
     vlc
-    
-    telegram-desktop 
-
+    telegram-desktop
     yesplaymusic
-    prismlauncher
     
     qbittorrent
   ];
 
-  services.kdeconnect.enable = true;
-  services.kdeconnect.indicator = true;
+  services.kdeconnect.enable = false;
+  services.kdeconnect.indicator = false;
   services.kdeconnect.package = pkgs.kdePackages.kdeconnect-kde;
 }

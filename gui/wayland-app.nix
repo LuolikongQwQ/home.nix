@@ -2,7 +2,7 @@
   programs = {
     firefox = {
       enable = true;
-      enableGnomeExtensions = false;
+      enableGnomeExtensions = true;
       
       # override options
       # github:nixpkgs/pkgs/applications/networking/browsers/firefox/wrapper.nix

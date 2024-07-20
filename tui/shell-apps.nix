@@ -27,7 +27,7 @@
 
   programs.atuin = {
     enable = true;
-    enableBashIntegration = true;
+    enableBashIntegration = false;
     enableNushellIntegration = true;
   };
 
