@@ -26,7 +26,7 @@
         font_size = 14
       }
       -- launch menu
-      -- TODO: add ssh
+      -- TODO: add ssh domain
       -- config.launch_menu = {
       --   {
       --      lable = "name",
